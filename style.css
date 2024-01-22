@@ -28,6 +28,7 @@ body {
 
 /* Header */
 #winner_msg {
+  margin-block-end: 15px;
   color: rgb(1, 223, 119);
   font-weight: bolder;
   text-shadow: 2px 0.5px 15px #00ff65;
