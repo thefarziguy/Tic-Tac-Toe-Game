@@ -28,11 +28,11 @@ body {
 
 /* Header */
 .heading h3 {
-  margin-block-start: -60px;
+  margin-block-start: -35px;
 }
 
 .sub-heading {
-  margin-block-end: 20px;
+  margin-block-end: 15px;
   height: 30px;
 }
 
