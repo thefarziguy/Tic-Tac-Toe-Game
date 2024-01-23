@@ -66,19 +66,24 @@ body {
   background-color: rgb(0 0 0 / 59%);
   box-shadow: 1px 1px 10px 2px black;
   color: rgb(255, 0, 0);
+  text-shadow: 0px 0px 15px #ff0000;
+  font-weight: bolder;
 }
 
+
+
+.winner-box {
+  color: rgb(163, 234, 149);
+  text-shadow: 0px 0px 15px #00ff0e;
+  font-weight: bolder;
+}
+
+/* Bottom */
 .status {
   margin-top: 10px;
   font-size: 50px;
 }
 
-.winner-box {
-  color: rgb(163, 234, 149);
-  font-weight: bolder;
-}
-
-/* Bottom */
 .status button {
   border-radius: 5px;
   padding: 5px;
