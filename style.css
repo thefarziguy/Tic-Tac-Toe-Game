@@ -1,11 +1,11 @@
-/* CSS Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Parents and Containers */
+
 body {
   background-color: #525759;
   color: #fff;
@@ -26,7 +26,7 @@ body {
   box-shadow: 4px 4px 10px 2px #1f1f1fd9;
 }
 
-/* Header */
+
 .heading h3 {
   margin-block-start: -35px;
 }
@@ -44,7 +44,7 @@ body {
   text-align: center;
 }
 
-/* Main Section */
+
 .main {
   display: flex;
   flex-wrap: wrap;
@@ -78,7 +78,7 @@ body {
   font-weight: bolder;
 }
 
-/* Bottom */
+
 .status {
   margin-top: 10px;
   font-size: 50px;
