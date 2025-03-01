@@ -1,4 +1,3 @@
-// Targeted Varables
 const winnerMsg = document.getElementById("winner_msg");
 const gameBox = document.querySelectorAll(".box");
 const playNewGame = document.querySelector("#newGame");
@@ -6,7 +5,6 @@ const playNewGame = document.querySelector("#newGame");
 let playGame = true;
 let currentPlayer = "x";
 
-// Winning Patterns
 const winPatterns = [
   [0, 1, 2],
   [0, 3, 6],
@@ -18,7 +16,6 @@ const winPatterns = [
   [6, 7, 8],
 ];
 
-// Check && Assign Players
 gameBox.forEach((box) => {
   box.addEventListener("click", () => {
     if (playGame && !box.textContent) {
@@ -29,12 +26,12 @@ gameBox.forEach((box) => {
   });
 });
 
-// To Toggle Players
+
 const togglePlayer = () => {
   currentPlayer = currentPlayer === "x" ? "o" : "x";
 };
 
-// To Check Winning Conditions
+
 const checkWinner = () => {
   let winnerFound = false;
 
@@ -60,13 +57,13 @@ const gameOver = () => {
   });
 };
 
-// To Display Message
+
 const displayMessage = (winner) => {
   winnerMsg.innerText = `The winner is '${winner}'`;
   winnerMsg.style.color = "rgb(5, 235, 28)";
 };
 
-// To Start New Game
+
 playNewGame.addEventListener("click", () => {
   gameBox.forEach((box) => {
     box.textContent = "";
